@@ -16,8 +16,10 @@ int main(void)
 	// Use my static Library
 	stMyType.x = fMyFunction_01(10, 2);
 	stMyType.y = fMyFunction_02(12.2, 2.1);
+	stMyType.z = fMyFunction_03(12, 2);
 	printf("%d\n", stMyType.x);
 	printf("%f\n", stMyType.y);
+	printf("%d\n", stMyType.z);
 
 	// Use my shared Library
 	stMyResultType.Value_01 = fMyFunction_03(5, 3);
