@@ -12,6 +12,7 @@
 int main(void)
 {
 	printf("MyProject01\n\n");
+	printf("Das ist mein Übungsprojekt mit welchem ich mich auf meinen neuen Job vorbereite\n\n");
 
 	// Use my static Library
 	stMyType.x = fMyFunction_01(10, 2);
