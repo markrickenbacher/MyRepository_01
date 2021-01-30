@@ -15,6 +15,7 @@
 		struct tstMyStructType {
         int x;
         float y;
+        int z;
     };
     typedef struct tstMyStructType tstMyStructType;
 
@@ -24,6 +25,7 @@
     // a function prototype for a function exported by library:
     extern int fMyFunction_01(int y, int z);
     extern float fMyFunction_02(float y, float z);
+    extern int fMyFunction_03(int y, int z);
 
 
 #endif /* MYSTATICLIBRARY_01_H_ */
