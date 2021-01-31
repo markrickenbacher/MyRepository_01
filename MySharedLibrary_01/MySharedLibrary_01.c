@@ -16,3 +16,8 @@ float fMyFunction_04(float y, float z)
   return y * z;
 }
 
+int fMyFunction_05(int y, int z)
+{
+  return y + z;
+}
+

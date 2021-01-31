@@ -25,8 +25,10 @@ int main(void)
 	// Use my shared Library
 	stMyResultType.Value_01 = fMyFunction_03(5, 3);
 	stMyResultType.Value_02 = fMyFunction_04(50.25, 4.3);
+	stMyResultType.Value_03 = fMyFunction_05(50, 4);
 	printf("%d\n", stMyResultType.Value_01);
 	printf("%f\n", stMyResultType.Value_02);
+	printf("%d\n", stMyResultType.Value_03);
 
 	return EXIT_SUCCESS;
 }
